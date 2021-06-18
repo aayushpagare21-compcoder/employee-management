@@ -1,0 +1,76 @@
+.navbar { 
+    padding: 2rem 2rem;
+}
+.content { 
+    margin-top: 3rem; 
+}  
+.content h1{ 
+    margin-bottom : 2rem;
+}  
+.content .heading { 
+    text-align: center;
+}
+.content section.display h2{ 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}  
+.content section.display .heading { 
+    text-align: center;
+}
+.content section.add h2{ 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}  
+.content section.add {  
+    background: black;  
+    color: white; 
+    border-radius: 4px; 
+    padding: 1rem 1rem; 
+    margin-bottom: 3rem;
+}  
+.content section.add .heading { 
+    text-align: center;
+}  
+section.display .table { 
+    margin-bottom: 3rem; 
+}
+.content section.add { 
+    margin-top: 3rem;
+} 
+.button { 
+    text-align: center;
+}  
+.content section.delete { 
+    background: black;  
+    color: white;
+    padding: 2rem 2rem; 
+    margin-bottom: 3rem;
+}
+.content section.delete .heading {  
+    margin-top: 3rem; 
+    margin-bottom: 3rem;
+    text-align: center;
+} 
+.content section.delete{  
+    margin-top: 3rem;
+    text-align: center;
+} 
+.content section.delete .input-group { 
+    margin-bottom: 2rem;
+}
+.content section.search { 
+    /* background: black;   */
+    /* color: white; */
+    padding: 2rem 2rem;
+}
+.content section.search .heading {  
+    margin-bottom: 3rem;
+    text-align: center;
+} 
+.content section.search{  
+
+    text-align: center;
+} 
+.content section.search .input-group { 
+    margin-bottom: 2rem;
+}
