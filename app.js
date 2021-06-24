@@ -1,10 +1,11 @@
 class Employee {
 
-    constructor(empId, empName, empDept, empSalary) {
+    constructor(empId, empName, empDept, empSalary, empAge) {
         this.empId = empId;
         this.empName = empName;
         this.empDept = empDept;
         this.empSalary = empSalary;
+        this.empAge = empAge;
     }
 }
 
@@ -53,6 +54,7 @@ class Utility {
                 <td>${element.empName}</td>
                 <td>${element.empDept}</td>
                 <td>${element.empSalary}</td>
+                <td>${element.empAge}</td>
             </tr>`;
         });
 
@@ -94,6 +96,7 @@ addBtn.addEventListener('click', function (e) {
 
     let empId = document.getElementById('eid').value;
     let empName = document.getElementById('ename').value;
+    let empAge = document.getElementById('eage').value;
     let empSalary = document.getElementById('esal').value;
 
     let technical = document.getElementById('tech');
@@ -114,7 +117,7 @@ addBtn.addEventListener('click', function (e) {
         empDept = helper.value;
     }
 
-    let employee = new Employee(empId, empName, empDept, empSalary);
+    let employee = new Employee(empId, empName, empDept, empSalary, empAge);
 
     if (u.validate(employee)) {
         u.add(employee);
@@ -196,6 +199,7 @@ searchBtn.addEventListener('click', function () {
                 <td>${element.empName}</td>
                 <td>${element.empDept}</td>
                 <td>${element.empSalary}</td>
+                <td>${element.empAge}</td> 
                 </tr>
                 `; 
         searchRow.innerHTML = uiString; 
